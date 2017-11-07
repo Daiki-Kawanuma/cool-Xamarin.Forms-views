@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CoolViewSample"
+             xmlns:views="clr-namespace:CoolViewSample.Views;assembly=CoolViewSample"
+             x:Class="CoolViewSample.MainPage">
+    <ContentView.Resources>
+        <ResourceDictionary>
+
+            <DataTemplate x:Key="itemItemplate">
+                <views:BriefView WidthRequest="75" IsVisible="{Binding IsVisible}" />
+            </DataTemplate>
+
+            <DataTemplate x:Key="detailItemplate">
+                <views:DetailView />
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </ContentView.Resources>
+
+    <AbsoluteLayout BackgroundColor="Blue">
+        <StackLayout Spacing="0"
+                 AbsoluteLayout.LayoutBounds="0.0, 1, 1, 0.95"
+                 AbsoluteLayout.LayoutFlags="All">
+            <StackLayout Padding="5,0,5,0">
+                <Label Text="Helvellyn" FontAttributes="Bold" TextColor="White"  FontSize="Large"/>
+                <Label Text="950 meters" TextColor="White"  FontSize="Small" />
+                <Label Text="Thursday, 30th April"  TextColor="White"  FontSize="Medium" />
+            </StackLayout>
+
+            <views:Accordion x:Name="accordion" Padding="0,10,0,0" 
+                            
+                           ItemTemplate="{StaticResource itemItemplate}"
+                           ItemDetailTemplate="{StaticResource detailItemplate}"
+                           VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>

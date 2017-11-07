@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolViewSample.Views.DetailView">
+    <ContentView.Content>
+        <StackLayout>
+            <Label Text="Detail" />
+            <Label Text="0600" />
+            <Label Text="0900" />
+            <Label Text="1200" />
+            <Label Text="1500" />
+            <Label Text="1800" />
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
