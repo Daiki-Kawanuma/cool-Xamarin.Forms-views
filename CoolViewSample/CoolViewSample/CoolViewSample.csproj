@@ -50,7 +50,7 @@
     <Compile Include="Views\DetailView.xaml.cs">
       <DependentUpon>DetailView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ISelectable.cs" />
+    <Compile Include="Models\ISelectable.cs" />
     <Compile Include="Views\ItemsView.cs" />
   </ItemGroup>
   <ItemGroup>
