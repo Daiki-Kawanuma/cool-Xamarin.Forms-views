@@ -27,7 +27,7 @@ namespace CoolViewSample.Views
             {
                 Orientation = StackOrientation.Horizontal,
                 Padding = new Thickness(0),
-                Spacing = 0,
+                Spacing = 2,
                 HorizontalOptions = LayoutOptions.FillAndExpand
             };
 

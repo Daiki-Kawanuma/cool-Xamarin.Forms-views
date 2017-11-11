@@ -2,14 +2,23 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CoolViewSample.Views.DetailView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <ContentView.Content>
         <StackLayout>
-            <Label Text="Detail" />
-            <Label Text="0600" />
-            <Label Text="0900" />
-            <Label Text="1200" />
-            <Label Text="1500" />
-            <Label Text="1800" />
+            <Label Text="Detail" Style="{StaticResource labelStyle}" />
+            <Label Text="0600" Style="{StaticResource labelStyle}" />
+            <Label Text="0900" Style="{StaticResource labelStyle}" />
+            <Label Text="1200" Style="{StaticResource labelStyle}" />
+            <Label Text="1500" Style="{StaticResource labelStyle}" />
+            <Label Text="1800" Style="{StaticResource labelStyle}" />
         </StackLayout>
     </ContentView.Content>
 </ContentView>
