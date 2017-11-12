@@ -10,17 +10,7 @@ namespace CoolViewSample
 {
     public partial class MainPage : ContentPage
     {
-        public IEnumerable<AccordionItem> Items = new List<AccordionItem>
-        {
-            new AccordionItem{ IsVisible = true },
-            new AccordionItem{ IsVisible = true },
-            new AccordionItem{ IsVisible = true },
-            new AccordionItem{ IsVisible = true },
-            new AccordionItem{ IsVisible = true },
-            new AccordionItem{ IsVisible = true },
-            new AccordionItem{ IsVisible = true },
-            new AccordionItem{ IsVisible = true },
-        };
+        public IEnumerable<AccordionItem> Items = AccordionItem.Participants;
 
         public MainPage()
         {

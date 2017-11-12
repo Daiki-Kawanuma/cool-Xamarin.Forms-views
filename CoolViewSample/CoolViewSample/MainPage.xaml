@@ -31,9 +31,9 @@
                      HorizontalOptions="Fill"               
                      VerticalOptions="Fill">
             <StackLayout Padding="5,0,5,0">
-                <Label Text="Merry Christmas" FontAttributes="Bold" TextColor="White"  FontSize="40"/>
-                <Label Text="950 meters" TextColor="White"  FontSize="Medium" />
-                <Label Text="Thursday, 30th April"  TextColor="White"  FontSize="Large" />
+                <Label Text="Xamarin Advent Calendar 2017" FontAttributes="Bold" TextColor="White"  FontSize="40"/>
+                <Label Text="25 Developers" TextColor="White"  FontSize="Medium" />
+                <Label Text="December 1st to 25th"  TextColor="White"  FontSize="Large" />
             </StackLayout>
 
             <views:Accordion x:Name="accordion" Padding="0,10,0,0"                             
