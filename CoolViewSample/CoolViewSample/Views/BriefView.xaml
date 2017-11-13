@@ -15,9 +15,9 @@
         <StackLayout BackgroundColor="#33FFFFFF">
             <Label Text="{Binding Date}" Style="{StaticResource labelStyle}" FontAttributes="Bold" HorizontalOptions="Center"/>
             <Image Source="{Binding Icon}" HorizontalOptions="Center" Margin="5"/>
-            <Image Source="{Binding Category1st}" HorizontalOptions="Center" Margin="5,10,5,5"/>
-            <Image Source="{Binding Category2nd}" HorizontalOptions="Center" Margin="5"/>
-            <Image Source="{Binding Category3rd}" HorizontalOptions="Center" Margin="5"/>
+            <Image Source="{Binding Category1st}" Margin="5,15,5,5"/>
+            <Image Source="{Binding Category2nd}" Margin="5" />
+            <Image Source="{Binding Category3rd}" Margin="5" />
         </StackLayout>
     </ContentView.Content>
 </ContentView>
