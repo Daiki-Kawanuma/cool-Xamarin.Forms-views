@@ -66,6 +66,26 @@ namespace CoolViewSample.Models
                 Icon = "https://avatars2.githubusercontent.com/u/16933811?v=4",
                 Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
             },
+            new AccordionItem{ IsVisible = true, Date = "11th",
+                Icon = "https://pbs.twimg.com/profile_images/741561516890062848/ES4tGCHi_400x400.jpg",
+                Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
+            },
+            new AccordionItem{ IsVisible = true, Date = "12th",
+                Icon = "https://pbs.twimg.com/profile_images/863913986462330881/COjIU6ir_400x400.jpg",
+                Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
+            },
+            new AccordionItem{ IsVisible = true, Date = "13th",
+                Icon = "https://pbs.twimg.com/profile_images/716222975192641536/UU__aMIF_400x400.jpg",
+                Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
+            },
+            new AccordionItem{ IsVisible = true, Date = "14th",
+                Icon = "https://pbs.twimg.com/profile_images/898332437498871808/z6K1Kiqd_400x400.jpg",
+                Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
+            },
+            new AccordionItem{ IsVisible = true, Date = "15th",
+                Icon = "https://pbs.twimg.com/profile_images/875499561770393600/-JMQPRzC_400x400.jpg",
+                Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
+            },
         };
     }   
 }
