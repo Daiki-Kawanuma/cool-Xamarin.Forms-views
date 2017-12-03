@@ -24,7 +24,7 @@ namespace CoolViewSample.Views
                 IsVisible = false
             };
 
-            AddGesture(_overlay, new TapGestureRecognizer(view =>
+            AddGesture(_overlay, gesture: new TapGestureRecognizer(view =>
             {
                 _overlay.IsVisible = false;
                 SelectedCommand.Execute(SelectedItem);

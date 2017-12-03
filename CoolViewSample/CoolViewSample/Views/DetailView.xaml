@@ -13,12 +13,8 @@
 
     <ContentView.Content>
         <StackLayout>
-            <Label Text="Detail" Style="{StaticResource labelStyle}" />
-            <Label Text="0600" Style="{StaticResource labelStyle}" />
-            <Label Text="0900" Style="{StaticResource labelStyle}" />
-            <Label Text="1200" Style="{StaticResource labelStyle}" />
-            <Label Text="1500" Style="{StaticResource labelStyle}" />
-            <Label Text="1800" Style="{StaticResource labelStyle}" />
+            <Label Grid.Column="1" Text="{Binding Name}" FontSize="Large" TextColor="White" />
+            <WebView Source="{Binding BlogUrl}" VerticalOptions="FillAndExpand"/>
         </StackLayout>
     </ContentView.Content>
 </ContentView>

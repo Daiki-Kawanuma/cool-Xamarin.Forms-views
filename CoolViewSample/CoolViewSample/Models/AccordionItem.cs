@@ -14,6 +14,8 @@ namespace CoolViewSample.Models
         public bool IsSelected { get; set; }
         public string Date { get; set; }
         public string Icon { get; set; }
+        public string Name { get; set; }
+        public string BlogUrl { get; set; }
         public ImageSource Category1st { get; set; }
         public ImageSource Category2nd { get; set; }
         public ImageSource Category3rd { get; set; }
@@ -22,17 +24,22 @@ namespace CoolViewSample.Models
         {
             new AccordionItem{ IsVisible = true, Date = "1st",
                 Icon = "https://pbs.twimg.com/profile_images/796746691265236992/U09lhRCX_400x400.jpg",
+                Name = "あめい@ハイドラきた",
+                BlogUrl = "https://qiita.com/amay077/items/6a6d5855b3d0c46de126",
                 Category1st = ImageSource.FromResource(Constants.XamarinImageUri),
-                Category2nd = ImageSource.FromResource(Constants.AndroidImageUri),
-                Category3rd = ImageSource.FromResource(Constants.iOSImageUri)
+                Category2nd = ImageSource.FromResource(Constants.iOSImageUri)
             },
             new AccordionItem{ IsVisible = true, Date = "2nd",
                 Icon = "https://pbs.twimg.com/profile_images/747601253266395136/2HeCGdiG_400x400.jpg",
+                Name = "田淵 義人＠エクセルソフト",
+                BlogUrl = "http://ytabuchi.hatenablog.com/entry/NetStandardXamarin",
                 Category1st = ImageSource.FromResource(Constants.XamarinImageUri),
                 Category2nd = ImageSource.FromResource(Constants.NetImageUri)
             },
             new AccordionItem{ IsVisible = true, Date = "3rd",
                 Icon = "https://pbs.twimg.com/profile_images/763183255528976385/k1LorAyM_400x400.jpg",
+                Name = "くぅ は 🐱と 🐶の補集合",
+                BlogUrl = "https://www.yahoo.co.jp/",
                 Category1st = ImageSource.FromResource(Constants.XamarinImageUri),
                 Category2nd = ImageSource.FromResource(Constants.AzureImageUri)
             },
@@ -42,7 +49,9 @@ namespace CoolViewSample.Models
             },
             new AccordionItem{ IsVisible = true, Date = "5th",
                 Icon = "https://pbs.twimg.com/profile_images/464440152270442497/shZN7Osi_400x400.png",
-                Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
+                Category1st = ImageSource.FromResource(Constants.XamarinImageUri),
+                Category2nd = ImageSource.FromResource(Constants.AndroidImageUri),
+                Category3rd = ImageSource.FromResource(Constants.iOSImageUri)
             },
             new AccordionItem{ IsVisible = true, Date = "6th",
                 Icon = "https://pbs.twimg.com/profile_images/751091357825929216/RiXRpWA3_400x400.jpg",
@@ -68,7 +77,8 @@ namespace CoolViewSample.Models
             },
             new AccordionItem{ IsVisible = true, Date = "11th",
                 Icon = "https://pbs.twimg.com/profile_images/741561516890062848/ES4tGCHi_400x400.jpg",
-                Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
+                Category1st = ImageSource.FromResource(Constants.XamarinImageUri),
+                Category2nd = ImageSource.FromResource(Constants.TizenImageUri)
             },
             new AccordionItem{ IsVisible = true, Date = "12th",
                 Icon = "https://pbs.twimg.com/profile_images/863913986462330881/COjIU6ir_400x400.jpg",
@@ -76,7 +86,8 @@ namespace CoolViewSample.Models
             },
             new AccordionItem{ IsVisible = true, Date = "13th",
                 Icon = "https://pbs.twimg.com/profile_images/716222975192641536/UU__aMIF_400x400.jpg",
-                Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
+                Category1st = ImageSource.FromResource(Constants.XamarinImageUri),
+                Category2nd = ImageSource.FromResource(Constants.VstsImageUri)
             },
             new AccordionItem{ IsVisible = true, Date = "14th",
                 Icon = "https://pbs.twimg.com/profile_images/898332437498871808/z6K1Kiqd_400x400.jpg",
@@ -84,7 +95,8 @@ namespace CoolViewSample.Models
             },
             new AccordionItem{ IsVisible = true, Date = "15th",
                 Icon = "https://pbs.twimg.com/profile_images/875499561770393600/-JMQPRzC_400x400.jpg",
-                Category1st = ImageSource.FromResource(Constants.XamarinImageUri)
+                Category1st = ImageSource.FromResource(Constants.XamarinImageUri),
+                Category2nd = ImageSource.FromResource(Constants.AzureImageUri),
             },
         };
     }   
